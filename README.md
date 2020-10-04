@@ -1,7 +1,3 @@
-# for support join here [TorrentLeech-Gdrive](https://telegram.dog/GBotStore)
-# working example group [Leech Here](https://telegram.dog/GBotStore)
-
-# Telegram Torrent Leecher 🔥🤖
 
 A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.com/pyrogram/pyrogram)
 
@@ -22,48 +18,9 @@ A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.c
     ✓ Added support for youtube playlist 😐
     ✓
     
-# TO-DO
--   ~Gdrive file clonning using Gclone~ `DONE ✓`
--   [ ] Adding mp3 files support while playlist downloading.
--   [ ] Password support while Unarchiving the files.
--   [ ] Selection of required files during leeching the big files using aria(/leech command)
-
-### Credit goes to SpEcHiDe for his Publicleech repo.
-
-## installing...
-
-### The Easy Way
-
-#### STEPS (I did this to avoid the use of same button multiple times)
-
-a)You have to fork this repo at first(Don't know how to🤔, Then google it😐)
-
-b)Find `app.jso`. 🧐
-
-c)Tap on that. 😬
-
-d)Tap to edit and just add `n` at last of name (Don't touch code🤦). ✍️
-
-e)It should look like `app.json`. 🎉
-
-f)Then tap 👇👇
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy) #Revived
 
-Better buy a vps 😐 and follow [this](https://github.com/gautamajay52/TorrentLeech-Gdrive#process-to-run-this-bot-on-vps)
-
-### The Legacy Way
-Simply clone the repository and run the main file:
-
-```sh
-git clone https://github.com/SpEcHiDe/PublicLeech.git
-cd PublicLeech
-python3 -m venv venv
-. ./venv/bin/activate
-pip install -r requirements.txt
-# <Create config.py appropriately>
-python3 -m tobrot
-```
 
 ### an example config.py 👇
 ```py
@@ -93,46 +50,6 @@ class Config(Config):
 * `DESTINATION_FOLDER`: Name of your folder in ur respective drive where you want to upload the files using the bot.
 
 * `OWNER_ID`: ID of the bot owner, He/she can be abled to access bot in bot only mode too(private mode).
-
-##### Set Rclone
-
-1. Set Rclone locally by following the official repo : https://rclone.org/docs/
-2. Get your `rclone.conf` file.
-will look like this
-```
-[NAME]
-type = 
-scope =
-token =
-client_id = 
-client_secret = 
-
-```
-3. Only copy the config of drive u want to upload file.
-4. Copy the entries of `rclone.conf` 
-5. Your copied config should look like this:
- ```
-type = 
-scope =
-token =
-client_id = 
-client_secret = 
-
-and everythin except `[NAME]`
-
-```
-
-6. Paste copied config in `RCLONE_CONFIG`
-
-7. Hit deploy button.
-8. Examples:-
-<p align="center">
-
-  <img src="https://raw.githubusercontent.com/gautamajay52/TorrentLeech-Gdrive/master/rclone.jpg" width="470" height="150">
-
-</p>
-
-## FAQ
 
 ##### Optional Configuration Variables
 
@@ -284,14 +201,3 @@ sudo docker run torrentleech-gdrive
 ## How to Use?
 
 * send any one of the available command, as a reply to a valid link/magnet/torrent. 👊
-
-
-## Credits, and Thanks to
-* [GautamKumar(me)](https://github.com/gautamajay52/TorrentLeech-Gdrive) 😬
-* [SpEcHiDe](https://github.com/SpEcHiDe/PublicLeech) for his wonderful code😚
-* [Rclone Team](https://rclone.org) for theirs awesome tool☁️
-* [Dan Tès](https://telegram.dog/haskell) for his [Pyrogram Library](https://github.com/pyrogram/pyrogram)
-* [Robots](https://telegram.dog/Robots) for their [@UploadBot](https://telegram.dog/UploadBot)
-* [@AjeeshNair](https://telegram.dog/AjeeshNait) for his [torrent.ajee.sh](https://torrent.ajee.sh)
-* [@gotstc](https://telegram.dog/gotstc), @aryanvikash, [@HasibulKabir](https://telegram.dog/HasibulKabir) for their TORRENT groups
-* [![CopyLeft](https://telegra.ph/file/b514ed14d994557a724cb.jpg)](https://telegra.ph/file/fab1017e21c42a5c1e613.mp4 "CopyLeft Credit Video")
