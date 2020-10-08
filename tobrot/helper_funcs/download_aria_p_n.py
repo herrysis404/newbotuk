@@ -62,7 +62,7 @@ async def aria_start():
     aria2_daemon_start_cmd.append("--user-agent=qBittorrent/4.2.5 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36")
     #aria2_daemon_start_cmd.append("--bt-stop-timeout=0") 
     aria2_daemon_start_cmd.append("--always-resume=true")
-    aria2_daemon_start_cmd.append("--file-allocation=falloc")
+    #aria2_daemon_start_cmd.append("--file-allocation=falloc")
     #aria2_daemon_start_cmd.append("--force-save=true")      
     #aria2_daemon_start_cmd.append(f"--bt-stop-timeout={MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START}")
     #
